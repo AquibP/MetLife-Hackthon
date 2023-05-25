@@ -1,0 +1,126 @@
+{
+	"name": "SqlPoolTable1",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [
+			{
+				"name": "AGNT_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SB_AGY_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AGNT_CD",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGNT_NM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CHNL_CD",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CHNL_NM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGNT_TYP",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SB_AGY_CD",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGY_CD",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EMAIL_ADR_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ADR_LN_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ADR_LN_2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CITY_NM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PST_CD",
+				"type": "nvarchar"
+			},
+			{
+				"name": "WORK_TEL_NUM_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "HOME_TEL_NUM_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MBL_TEL_NUM_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TAX_ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGNT_STTS",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AGNT_STTS_DT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "CNTRCT_STRT_DT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "BRTH_DT",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "FRST_NM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LST_NM",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ISO_CNTRY_NUM",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TBL_AGNT"
+		},
+		"sqlPool": {
+			"referenceName": "hackathonpool",
+			"type": "SqlPoolReference"
+		}
+	}
+}
